@@ -1,0 +1,160 @@
+<!--
+    andrewdmoran.com webpage
+    File: education.html
+    education and certifications page
+    Author: Andrew Moran
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Andrew Moran">
+    <meta name="description" content="Resume website for Andrew Moran">
+    <meta name="keywords" content="resume, computer science, program management">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="poppins.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon_2.png">
+    <title>Andrew D Moran</title>
+</head>
+<body>
+    <nav class="sidebar"><br>
+        <div class="name">
+            <p class="first">Andrew</p>
+            <p class="last">Moran</p>
+            <p class="location">Seattle, WA</p>
+            <hr class="rounded">
+        </div>
+        <ul>
+            <li><a href="index.html" onclick="">About</a></li>
+            <li><a class="active" href="#" onclick="">Education & Certifications</a></li>
+            <li><a href="experience.html" onclick="">Experience</a></li>
+            <li><a href="projects.html" onclick="">Projects</a></li>
+        </ul>
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/andrewdmoran/" class="fa fa-linkedin"></a>
+            <p>Connect and network with me.</p>
+            <hr class="rounded">
+            <button class="button" onclick="goDark()">Dark Mode</button>
+        </div>
+    </nav>
+    <div class="education">
+        <h1 class="header">Education</h1>
+        <hr class="rounded">
+        <br>
+        <div class="row">
+            <div class="col-75">
+                <h3 class="degree">Master of Science</h3>
+                <h1 class="program">Computer Science</h1>
+                <h3 class="school">Northeastern University, Seattle, WA</h3>
+            </div>
+            <div class="col-25">
+                <h3 class="date">December 2023</h3>
+                <h3 class="gpa">GPA 3.78</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-75">
+                <h3 class="degree">Master of Science</h3>
+                <h1 class="program">Project Management</h1>
+                <h3 class="school">City University of Seattle, Seattle, WA</h3>
+            </div>
+            <div class="col-25">
+                <h3 class="date">December 2018</h3>
+                <h3 class="gpa">GPA 3.82</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-75">
+                <h3 class="degree">Graduate Certificate</h3>
+                <h1 class="program">Cyber Defense Operations</h1>
+                <h3 class="school">SANS Technology Institute, Distance Learning</h3>
+            </div>
+            <div class="col-25">
+                <h3 class="date">May 2019</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-75">
+                <h3 class="degree">Bachelor of Science</h3>
+                <h1 class="program">Civil Engineering</h1>
+                <h3 class="school">Norwich University, Northfield, VT</h3>
+            </div>
+            <div class="col-25">
+                <h3 class="date">May 2006</h3>
+            </div>
+        </div>
+    </div>
+    <div class="certs">
+        <h1 class="header">Certifications</h1>
+        <hr class="rounded">
+        <br>
+        <h1 class="name-long">GCIA</h1>
+        <h3 class="name-long">GIAC Certified Intrusion Analyst</h3>
+        <button type="button" class="collapsible"></button>
+        <div class="content">
+            <p>Analyst Number: 13700<br>Obtained: May 15, 2019<br>Expires: May 31, 2027</p>
+            <p>The GIAC Intrusion Analyst (GCIA) certification validates a practitioner's knowledge of network
+                and host
+                monitoring, traffic analysis, and intrusion detection. GCIA certification holders have the
+                skills needed
+                to configure and monitor intrusion detection systems, and to read, interpret, and analyze
+                network
+                traffic and related log files.</p>
+        </div>
+
+        <h1 class="name-short">GCED</h1>
+        <h3 class="name-long">GIAC Certified Enterprise Defender</h3>
+        <button type="button" class="collapsible"></button>
+        <div class="content">
+            <p>Analyst Number: 3184<br>Obtained: Jul 26, 2018<br>Expires: Jul 31, 2026</p>
+            <p>The GIAC Certified Enterprise Defender (GCED) certification builds on the security skills
+                measured by the
+                GIAC Security Essentials certification. It assesses more advanced, technical skills that are
+                needed to
+                defend the enterprise environment and protect an organization as a whole. GCED certification
+                holders
+                have validated knowledge and abilities in the areas of defensive network infrastructure, packet
+                analysis, penetration testing, incident handling and malware removal.</p>
+        </div>
+
+        <h1 class="name-short">GCCC</h1>
+        <h3 class="name-long">GIAC Critical Controls Certification</h3>
+        <button type="button" class="collapsible"></button>
+        <div class="content">
+            <p>Analyst Number: 842<br>Obtained: Jul 18, 2017<br>Expires: Jul 31, 2025</p>
+            <p>The GIAC Critical Controls Certification (GCCC) certification is based on the CIS Critical
+                Security
+                Controls, a prioritized, risk-based approach to security. This certification ensures that
+                candidates
+                have the knowledge and skills to implement and execute the CIS Critical Controls recommended by
+                the
+                Center for Internet Security, and perform audits based on the standard.</p>
+        </div>
+
+        <h1 class="name-short">GSEC</h1>
+        <h3 class="name-long">GIAC Security Essentials</h3>
+        <button type="button" class="collapsible"></button>
+        <div class="content">
+            <p>Analyst Number: 40454<br>Obtained: Mar 9, 2017<br>Expires: Mar 31, 2025</p>
+            <p>The GIAC Security Essentials (GSEC) certification validates a practitioner's knowledge of
+                information
+                security beyond simple terminology and concepts. GSEC certification holders are demonstrating
+                that they
+                are qualified for hands-on IT systems roles with respect to security tasks.</p>
+        </div>
+
+        <h1 class="name-short">CompTIA Security+</h1>
+        <button type="button" class="collapsible"></button>
+        <div class="content">
+            <p>Obtained: Aug 20, 2010<br>Expires: Good for Life</p>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>

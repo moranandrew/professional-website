@@ -1,0 +1,86 @@
+<!--
+    andrewdmoran.com webpage
+    File: projects.html
+    projects page
+    Author: Andrew Moran
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Andrew Moran">
+    <meta name="description" content="Resume website for Andrew Moran">
+    <meta name="keywords" content="resume, computer science, program management">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="poppins.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon_2.png">
+    <title>Andrew D Moran</title>
+</head>
+<body>
+    <nav class="sidebar"><br>
+        <div class="name">
+            <p class="first">Andrew</p>
+            <p class="last">Moran</p>
+            <p class="location">Seattle, WA</p>
+            <hr class="rounded">
+        </div>
+        <ul>
+            <li><a href="index.html" onclick="">About</a></li>
+            <li><a href="education.html" onclick="">Education & Certifications</a></li>
+            <li><a href="experience.html" onclick="">Experience</a></li>
+            <li><a class="active" href="#" onclick="">Projects</a></li>
+        </ul>
+        <div class="footer">
+            <a href="https://www.linkedin.com/in/andrewdmoran/" class="fa fa-linkedin"></a>
+            <p>Connect and network with me.</p>
+            <hr class="rounded">
+            <button class="button" onclick="goDark()">Dark Mode</button>
+        </div>
+    </nav>
+    <div class="projects">
+        <div class="project">
+            <h1 class="proj-name">Gesture Based Music Notation System</h1>
+            <hr class="rounded">
+            <p>
+                This project created a program that allows the user to write music notation through a series of
+                predefined simple gestures. It
+                uses a bidding system based on the type of gesture and location of the gesture on the screen to discern
+                what notation the user intended. This project represents approximately 70 to 80 hours of time spent
+                programming over a semester.
+            </p>
+            <p><strong>Language:</strong> Java</p>
+            <a href="https://github.com/moranandrew/neu2023">GitHub Repository</a>
+            <div class="example">
+            <img src="/images/music_app_screenshot.png" alt="Screenshot of music app">
+            </div>
+        </div>
+        <div class="project">
+            <h1 class="proj-name">Household Inventory Mobile Application</h1>
+            <hr class="rounded">
+            <p>
+                Developed as a small team, this project was to create a mobile application that was devoloped to address
+                the issue of living in a shared living situation and being able to keep track of everyones personal
+                belongings. What resulted was an application that enabled individauls to create an inventory of thier
+                personal items and then when in a household with other individuals also in the app they could mark items
+                as in shared spaces so that everyone would be aware of them.
+            </p>
+            <p><strong>Languages and Tools:</strong> Dart, Flutter, Miro, Figma</p>
+            <p><strong>Skills:</strong> User Studies, UI/UX Design, Wireframing, Agile Project Management</p>
+            <p>GitHub Repository will be published at completion of the project [December 2023]</p>
+        </div>
+        <div class="project">
+            <h1 class="proj-name">Personal Resume Static Website</h1>
+            <hr class="rounded">
+            <p>
+                The product of this project is this website located at andrewdmoran.com and includes writing tests to
+                test the code implementation.
+            </p>
+            <p><strong>Languages:</strong> HTML, CSS, JavaScript</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
